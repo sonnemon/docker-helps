@@ -1,0 +1,10 @@
+version: "2"
+services:
+  host:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 80:80
+    extra_hosts:
+      - "localnode:192.168.1.130"
