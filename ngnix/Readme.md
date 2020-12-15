@@ -11,6 +11,11 @@ Get IP from extra_hosts
 Start using
 
 ```bash
-    docker-compose build
-    docker-compose up
+    docker-compose -f docker-compose.yaml up -d
+```
+
+Stop using
+
+```bash
+    docker-compose -f docker-compose.yaml down
 ```
